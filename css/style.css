@@ -14,8 +14,8 @@
 }
 
 .ms_jumbo {
-    height: 500px;
-    background-color: mediumspringgreen;
+    height: 600px;
+    background-color: rgb(24, 209, 138);
 }
 
 .ms_main {
@@ -51,11 +51,16 @@
 
 
 .jumbo_avatar {
-    height: 300px;
+    height: 400px;
     
 }
 
 .ms_jumbo p {
     text-transform: uppercase;
+    color: white;
+}
+
+
+.fa-star {
     color: white;
 }
