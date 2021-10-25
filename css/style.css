@@ -25,7 +25,7 @@
 
 .ms_about {
     height: 100%;
-    background-color: mediumturquoise;
+    background-color: rgb(24, 209, 138);
 }
 
 .ms_contact {
@@ -62,5 +62,21 @@
 
 
 .fa-star {
+    color: white;
+}
+
+.c_70 {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.c_100 {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.ms_btn {
+    border: 1px solid white;
     color: white;
 }
