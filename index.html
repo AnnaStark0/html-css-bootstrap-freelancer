@@ -16,7 +16,7 @@
 
 <body>
 
-    <div class="container-sm">
+    <div class="container-sm container-md container-lg">
 
         <!--HEADER-->
         <header class="row ms_head ">
@@ -29,6 +29,7 @@
                 <!--///Title-->
 
                 <!--Menu-->
+
                 <div class="dropdown">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
                         data-bs-toggle="dropdown" aria-expanded="false">
@@ -40,6 +41,8 @@
                         <li><a class="dropdown-item" href="#">Contact</a></li>
                     </ul>
                 </div>
+
+
                 <!--///Menu-->
 
 
@@ -140,14 +143,16 @@
             </div>
 
             <div class="col-12 col-md-6 d-flex justify-content-center ">
-                <P class="ms_white_txt c_70 "> Freelancer is a free bootstrap theme creater by Start Bootstrap. The download
+                <P class="ms_white_txt c_70 "> Freelancer is a free bootstrap theme creater by Start Bootstrap. The
+                    download
                     includes the complete
                     source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy
                     customization. </P>
             </div>
 
             <div class="col-12 col-md-6 d-flex justify-content-center ">
-                <P class="ms_white_txt c_70 "> Freelancer is a free bootstrap theme creater by Start Bootstrap. The download
+                <P class="ms_white_txt c_70 "> Freelancer is a free bootstrap theme creater by Start Bootstrap. The
+                    download
                     includes the complete
                     source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy
                     customization. </P>
@@ -169,21 +174,17 @@
             </div>
             <div class="col-12 d-flex justify-content-center">
 
-                <form>
+                <form class="ms_form_width">
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        <div id="emailHelp" class="form-text"></div>
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Password</label>
                         <input type="password" class="form-control" id="exampleInputPassword1">
                     </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary">Send</button>
                 </form>
 
             </div>
@@ -199,24 +200,35 @@
         <!--Footer Up-->
         <div class="row ms_footup pt-5 pb-5">
 
+            
             <div class="col-12 col-md-4 d-flex justify-content-center">
                 <span>LOCATION</span>
-                
+
                 <span>2215 John Daniel Drive Clark, MO 54243</span>
 
             </div>
 
             <div class="col-12 col-md-4 d-flex justify-content-center">
 
-                <span>AROUND THE WEB</span>
-                
-                <div>ICONE SOCIAL</div>
+                <div class="col-12">
+                    <span>AROUND THE WEB</span>
+                </div>
+
+                <div>
+                    <i class="fab fa-facebook-f"></i>
+
+                    <i class="fab fa-google-plus-g"></i>
+
+                    <i class="fab fa-twitter"></i>
+
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
 
             </div>
 
             <div class="col-12 col-md-4 d-flex justify-content-center">
                 <span>ABOUT FREELANCER</span>
-                
+
                 <p>Freelance is a free to use, open source Bootstrap theme created by <span>Start Bootstrap</span>.</p>
             </div>
 
@@ -229,7 +241,7 @@
         <!--Footer bottom-->
         <footer class="row ms_foot">
             <div class="col-12 d-flex justify-content-center">
-                <span>Copyright SIMBOLO Your Website 2021</span>
+                <span>Copyright <i class="far fa-copyright"></i> Your Website 2021</span>
             </div>
         </footer>
         <!--///Footer bottom-->
