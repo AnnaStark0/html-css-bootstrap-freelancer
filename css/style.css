@@ -43,3 +43,19 @@
     height: 100%;
     background-color: royalblue;
 }
+
+.ms_white_txt {
+    color:white;
+}
+
+
+
+.jumbo_avatar {
+    height: 300px;
+    
+}
+
+.ms_jumbo p {
+    text-transform: uppercase;
+    color: white;
+}
