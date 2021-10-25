@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ms_bck_grey {
+    background-color: grey;
+}
+
+.ms_head {
+    height: 100px;
+    background-color: rgb(2, 90, 112);
+}
+
+.ms_jumbo {
+    height: 500px;
+    background-color: mediumspringgreen;
+}
+
+.ms_main {
+    height: 100%;
+    background-color: rgb(218, 214, 214);
+}
+
+.ms_about {
+    height: 100%;
+    background-color: mediumturquoise;
+}
+
+
+
+
+.ms_foot {
+    height: 100%;
+    background-color: royalblue;
+}
