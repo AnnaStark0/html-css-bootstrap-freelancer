@@ -28,8 +28,16 @@
     background-color: mediumturquoise;
 }
 
+.ms_contact {
+    height: 100%;
+    background-color: rgb(209, 212, 212);
+}
 
 
+.ms_footup {
+    height: 100%;
+    background-color: steelblue;
+}
 
 .ms_foot {
     height: 100%;
