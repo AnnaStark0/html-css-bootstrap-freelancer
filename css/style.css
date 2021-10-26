@@ -6,13 +6,13 @@
 /*HEADER*/
 header {
     height: 80px;
-    background-color: rgb(2, 90, 112);
+    background-color: rgb(39, 51, 77);
 }
 
 /*JUMBO*/
 .jumbo {
     height: 500px;
-    background-color: rgb(24, 209, 138);
+    background-color: rgb(35, 196, 155);
 }
 
 .jumbo_avatar {
@@ -28,52 +28,46 @@ header {
 
 /*About*/
 .about {
-    background-color: rgb(24, 209, 138);
+    background-color: rgb(35, 196, 155);
 }
 
 /*Contact*/
 .contact {
-    background-color: rgb(233, 233, 233);
+    background-color: white;
 }
 
 .ms_form_width {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
 }
 
 /*FOOTER*/
 .footop {
     height: 100%;
-    background-color: steelblue;
+    background-color: rgb(50, 92, 126);
 }
 
 .footop p {
-    font-size: 12px;
+    font-size: 14px;
+}
+.footop a {
+    color: white;
+    font-size: 20px;
 }
 
+.footop a i:hover {
+    color: rgb(196, 195, 195);
+    
+}
 
+.green {
+    color: rgb(61, 180, 101);
+}
 
 footer {
     height: 100%;
-    background-color: rgb(2, 90, 112);
+    background-color: rgb(39, 51, 77);
 }
-
-/*.ms_foot_sx, .ms_foot_cntr, .ms_foot_dx  {
-    background-color: rgb(8, 205, 240);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-
-
-
-
-
-
-
 
 
 /*Star*/
@@ -105,10 +99,20 @@ footer {
     border: 1px solid white;
     color: white;
 }
+.ms_btn:hover {
+    border: 1px solid rgb(196, 195, 195);
+    color: rgb(196, 195, 195);
+} 
 
 .form button {
-    background-color: green;
+    background-color: rgb(50, 216, 161);
 }
+
+
+
+
+
+
 
 
 
@@ -146,10 +150,6 @@ footer {
 
 
 footer span {
-    padding-top: 10px;
-    padding-bottom: 10px;
 
-    font-size: 10px;
-
-    color: white;
+    font-size: 10px; 
 }
